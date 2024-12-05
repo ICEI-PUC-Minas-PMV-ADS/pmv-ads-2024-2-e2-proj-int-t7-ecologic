@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/raphaelrodrigues/Documents/PUC/verdadeiro/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/app.csproj": {}
+    "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/app.csproj": {}
   },
   "projects": {
-    "/Users/raphaelrodrigues/Documents/PUC/verdadeiro/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/app.csproj": {
+    "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/raphaelrodrigues/Documents/PUC/verdadeiro/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/app.csproj",
+        "projectUniqueName": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/app.csproj",
         "projectName": "app",
-        "projectPath": "/Users/raphaelrodrigues/Documents/PUC/verdadeiro/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/app.csproj",
-        "packagesPath": "/Users/raphaelrodrigues/.nuget/packages/",
-        "outputPath": "/Users/raphaelrodrigues/Documents/PUC/verdadeiro/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/obj/",
+        "projectPath": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/app.csproj",
+        "packagesPath": "/Users/arianemoura/.nuget/packages/",
+        "outputPath": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/raphaelrodrigues/.nuget/NuGet/NuGet.Config"
+          "/Users/arianemoura/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
