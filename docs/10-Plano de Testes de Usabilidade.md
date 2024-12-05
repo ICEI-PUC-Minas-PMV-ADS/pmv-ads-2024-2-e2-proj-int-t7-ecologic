@@ -24,7 +24,7 @@ Os testes de usabilidade visam:
 
 ## Tarefas a Serem Executadas
 
-- **Cadastro e Login:** Realizar o processo de cadastro inicial e acessar uma conta existente para verificar a fluidez do sistema.
+- **Login:** Realizar o processo de login e acessar uma conta existente para verificar a fluidez do sistema.
 - **Geração de Relatórios:** Criar e visualizar relatórios sobre o desempenho energético, testando a intuitividade do processo.
 - **Navegação e Consulta de Alertas:** Explorar as diferentes seções do sistema e verificar a recepção de notificações em tempo real.
 - **Verificação de Clareza das Informações:** Avaliar como as informações e alertas são apresentados, focando na legibilidade e facilidade de compreensão.
