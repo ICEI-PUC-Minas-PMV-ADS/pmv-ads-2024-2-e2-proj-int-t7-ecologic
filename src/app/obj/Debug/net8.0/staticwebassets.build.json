@@ -8,7 +8,7 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "app/wwwroot",
+      "Name": "app\\wwwroot",
       "Source": "app",
       "ContentRoot": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/",
       "BasePath": "_content/app",
@@ -71,7 +71,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/favicon.ico",
@@ -90,7 +90,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/images/barradireita.png",
@@ -109,7 +109,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/barradireita.png"
+      "OriginalItemSpec": "wwwroot\\images\\barradireita.png"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/images/barradireita1.png",
@@ -128,7 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/barradireita1.png"
+      "OriginalItemSpec": "wwwroot\\images\\barradireita1.png"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/images/barraesquerda.png",
@@ -147,7 +147,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/barraesquerda.png"
+      "OriginalItemSpec": "wwwroot\\images\\barraesquerda.png"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/images/biomassa.png",
@@ -166,7 +166,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/biomassa.png"
+      "OriginalItemSpec": "wwwroot\\images\\biomassa.png"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/images/email.png",
@@ -185,7 +185,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/email.png"
+      "OriginalItemSpec": "wwwroot\\images\\email.png"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/images/email1.png",
@@ -204,7 +204,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/email1.png"
+      "OriginalItemSpec": "wwwroot\\images\\email1.png"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/images/energiaeolica.png",
@@ -223,7 +223,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/energiaeolica.png"
+      "OriginalItemSpec": "wwwroot\\images\\energiaeolica.png"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/images/energiageotermica.png",
@@ -242,7 +242,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/energiageotermica.png"
+      "OriginalItemSpec": "wwwroot\\images\\energiageotermica.png"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/images/energiahidreletrica.png",
@@ -261,7 +261,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/energiahidreletrica.png"
+      "OriginalItemSpec": "wwwroot\\images\\energiahidreletrica.png"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/images/energiasolar.png",
@@ -280,7 +280,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/energiasolar.png"
+      "OriginalItemSpec": "wwwroot\\images\\energiasolar.png"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/images/grafico1.png",
@@ -299,7 +299,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/grafico1.png"
+      "OriginalItemSpec": "wwwroot\\images\\grafico1.png"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/images/logo.png",
@@ -318,7 +318,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/logo.png"
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/images/logosemfundo.png",
@@ -337,7 +337,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/logosemfundo.png"
+      "OriginalItemSpec": "wwwroot\\images\\logosemfundo.png"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/images/lupapesquisa.png",
@@ -356,7 +356,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/lupapesquisa.png"
+      "OriginalItemSpec": "wwwroot\\images\\lupapesquisa.png"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/images/Ôèø.svg",
@@ -394,7 +394,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/pcgraficos2.png"
+      "OriginalItemSpec": "wwwroot\\images\\pcgraficos2.png"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/images/phone.png",
@@ -413,7 +413,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/phone.png"
+      "OriginalItemSpec": "wwwroot\\images\\phone.png"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/images/whatsapp.png",
@@ -432,7 +432,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/whatsapp.png"
+      "OriginalItemSpec": "wwwroot\\images\\whatsapp.png"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/js/site.js",
@@ -451,7 +451,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/site.js"
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
@@ -470,7 +470,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
@@ -489,7 +489,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
@@ -508,7 +508,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
@@ -527,7 +527,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
@@ -546,7 +546,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
@@ -565,7 +565,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
@@ -584,7 +584,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
@@ -603,7 +603,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
@@ -622,7 +622,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
@@ -641,7 +641,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
@@ -660,7 +660,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
@@ -679,7 +679,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
@@ -698,7 +698,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
@@ -717,7 +717,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
@@ -736,7 +736,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
@@ -755,7 +755,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
@@ -774,7 +774,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
@@ -793,7 +793,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
@@ -812,7 +812,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
@@ -831,7 +831,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
@@ -850,7 +850,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
@@ -869,7 +869,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
@@ -888,7 +888,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
@@ -907,7 +907,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
@@ -926,7 +926,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
@@ -945,7 +945,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
@@ -964,7 +964,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
@@ -983,7 +983,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
@@ -1002,7 +1002,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
@@ -1021,7 +1021,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
@@ -1040,7 +1040,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
@@ -1059,7 +1059,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
@@ -1078,7 +1078,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
@@ -1097,7 +1097,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
@@ -1116,7 +1116,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
@@ -1135,7 +1135,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
@@ -1154,7 +1154,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
@@ -1173,7 +1173,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
@@ -1192,7 +1192,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
@@ -1211,7 +1211,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
@@ -1230,7 +1230,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
@@ -1249,7 +1249,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
@@ -1268,7 +1268,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
@@ -1287,7 +1287,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/bootstrap/LICENSE",
@@ -1306,7 +1306,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
@@ -1325,7 +1325,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
@@ -1344,7 +1344,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
@@ -1363,7 +1363,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/jquery-validation/dist/additional-methods.js",
@@ -1382,7 +1382,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
@@ -1401,7 +1401,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
@@ -1420,7 +1420,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
@@ -1439,7 +1439,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/jquery-validation/LICENSE.md",
@@ -1458,7 +1458,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/jquery/dist/jquery.js",
@@ -1477,7 +1477,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/jquery/dist/jquery.min.js",
@@ -1496,7 +1496,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/jquery/dist/jquery.min.map",
@@ -1515,7 +1515,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
       "Identity": "/Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/wwwroot/lib/jquery/LICENSE.txt",
@@ -1534,7 +1534,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     }
   ]
 }

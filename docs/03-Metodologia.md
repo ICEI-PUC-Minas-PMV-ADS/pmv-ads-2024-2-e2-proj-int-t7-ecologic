@@ -103,6 +103,28 @@ Além das atas, foram produzidos materiais documentais, a logo do projeto, e a a
 
 ![Screenshot_1](https://github.com/user-attachments/assets/01b2c83d-4d82-4415-8089-1828c2902294)
 
+<!-- <h4 align="center">FIGURA 07</h4> -->
+
+<br>
+
+#### Etapa 4:
+
+![Captura de tela 2024-11-24 220644](https://github.com/user-attachments/assets/bcc1099e-8714-4b98-8f28-bb1b93128e21)
+
+<!-- <h4 align="center">FIGURA 07</h4> -->
+
+<br>
+
+O planejamento desta etapa foi realizado utilizando a metodologia ágil SCRUM, com foco na entrega incremental das funcionalidades do sistema de gerenciamento de usinas de energia. Após revisar o backlog do projeto, a equipe definiu as prioridades desta Sprint, alinhando ao objetivo principal de aprimorar a eficiência na gestão energética e promover a sustentabilidade.
+
+As seguintes funcionalidades foram priorizadas:
+
+- Testes e validações de usabilidade do sistema;
+- Correção dos diagramas;
+- Continuação da implementação do back-end e banco de dados.
+
+O progresso das atividades foi acompanhado em reuniões semanais, garantindo a colaboração entre os membros e a resolução de problemas.
+
 <br>
 
 ### Ferramentas
