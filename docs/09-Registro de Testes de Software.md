@@ -83,7 +83,4 @@
 
 Os testes de software realizados na aplicação EcoLogic indicam que as funcionalidades estão em processo de testes e mostram que o sistema está operacional em suas funções principais, permitindo logins, recuperação de senha, e o gerenciamento completo de usinas, fontes de energia e produção.
 
-**Próximas Etapas:**
-- Finalizar ajustes para facilitar a recuperação de senha e melhorar a interface gráfica.
-  
-- Repetir testes após as melhorias para garantir a eficácia do software.
+
