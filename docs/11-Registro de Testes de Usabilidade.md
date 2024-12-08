@@ -1,127 +1,144 @@
 # Registro de Testes de Usabilidade
 
-## Teste 01 - Realizar login e recuperar senha
+**Data do Registro:** 27 de novembro 2024
 
-**Data do Teste:** 27 de outubro de 2024  
-
-**Local:** Testes realizados de forma remota  
-
-**Versão do Software:** 1.0  
-
-**Objetivo do Teste:** Avaliar a facilidade de navegação e usabilidade das funcionalidades de criação de conta, acesso e logout.
-
-- Realizar login
-  
-- Recuperar acesso
-
-### Participantes:
-
-- **Usuário 1:** Nicole Andrade, 29 anos, programadora formada, trabalha para uma empresa de automação.
-  
-- **Usuário 2:** Theo Maciel, 18 anos, estudante universitário, faz estágio em uma empresa de projeto fotovoltaico.
-  
-- **Usuário 3:** Jade Dutra, 28 anos, trabalha como engenheira elétrica em uma multinacional.
-
-### Resultados:
-
-- Nicole Andrade: Completou todas as tarefas dentro do tempo estipulado, sem dificuldade.
-  
-- Theo Maciel: Completou as tarefas no tempo estipulado.
-  
-- Jade Dutra: Completou dentro do tempo as atividades, mas teve uma pequena dificuldade para recuperar a senha.
-
----
-
-### Questionário de Satisfação
-
-| Usuário            | Os campos obrigatórios e instruções estão sinalizados de forma clara? | Teve algo específico que te gerou dificuldade?                             | Você acredita que o acesso ao sistema é fácil?               | Como você avaliaria sua experiência de fazer o login e recuperar senha?        |
-|--------------------|---------------------------------------------------------------------|---------------------------------------------------------------------------------------|------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| Nicole Andrade      | Sim, todos os campos estavam marcados de forma nítida                   | Não, o processo foi tranquilo                                             | Sim, os campos estão bem sinalizados e não há complexidade  | Experiência excelente, superou minhas expectativas                          |
-| Theo Maciel    | Sim, nada a adicionar                          | Tela muito simples e rápida                                                                   | Sim, não senti dificuldade                     | Boa, dentro do que eu esperava            |
-| Jade Dutra         | Sim, tudo estava bem claro                                           | Dificuldade não, mas demorei alguns segundos para achar o campo de e-mail em recuperar senha | Sim, ele é fluido                      | Muito boa, mas colocaria com mais nitidez as opções de contato para recuperação de senha   |
+**Versão do Software:** 4.0
 
 <br>
 
-## Teste 02 - Gerenciamento de Usinas, Fontes de Energia e Produção
+## **Objetivo**
 
-**Data do Teste:** 27 de outubro de 2024  
+Avaliar a usabilidade da aplicação EcoLogic, garantindo que o sistema seja intuitivo, eficiente e atenda às expectativas dos usuários. O foco dos testes inclui as telas de Login, Recuperação de Senha, Gerenciamento de Usinas, Fontes de Energia, Produção de Energia, Clientes, Usuários, Dashboard Principal, Permissões e Grupos de Permissões.
 
-**Local:** Testes realizados de forma remota  
+**Os critérios avaliados foram:**
 
-**Versão do Software:** 1.0  
-
-**Objetivo do Teste:** Avaliar a facilidade de navegação e usabilidade das funcionalidades de gerenciamento de usinas, fontes de energia e produção de energia.
-
-- Verificar informações de usinas e fontes de energia
-
-- Adicionar, editar e excluir informações de produção de energia
-
-### Participantes:
-
-- **Usuário 1:** Juliano Castro, 53 anos, professor de engenharia elétrica na PUC Minas.
+- Facilidade de navegação.
+- Compreensão dos rótulos e mensagens.
+- Tempo de conclusão de tarefas.
+- Satisfação geral dos usuários.
   
-- **Usuário 2:** Samuel Chaves, 33 anos, empreendedor, possui uma empresa de placas solares.
-  
-- **Usuário 3:** Bernardo Rosa, 25 anos, possui placa solar em sua casa no interior.
 
-### Resultados:
+## **Metodologia**
 
-- Juliano Castro: Conseguiu gerenciar usinas, fontes de energia e produção com facilidade.
-  
-- Samuel Chaves: Conseguiu realizar as tarefas, mas sentiu falta de mais opções de filtros.
-  
-- Bernardo Rosa: Completou as tarefas de gerenciamento, mas achou a interface visual simples demais.
+Os testes de usabilidade foram conduzidos com 10 usuários (5 administradores e 5 usuários comuns) que interagiram com as telas e realizaram as seguintes tarefas:
 
----
+1. **Login** – Acessar o sistema com credenciais válidas.
 
-### Questionário de Satisfação
+2. **Recuperação de Senha** – Recuperar a senha através do e-mail de cadastro.
 
-| Usuário            | Dificuldade de navegação                                          | Satisfação com as informações                                     | Legibilidade da página                                   |
-|--------------------|-----------------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------------------|
-| Juliano Castro   | Não. A interface foi bem clara                            | Alta. Conseguiu verificar de forma clara e sem nenhuma dificuldade as informações desejadas | Excelente. Informações claras       |
-| Samuel Chaves    | Não, não tive dificuldades | Normal. Dentro do esperado                  | Boa. Nada a reclamar     |
-| Bernardo Rosa    | Sim. Nada que comprometa, mas gostaria de mais opções de filtros   | Boa. Informações completas e claras   | Boa. Aumentaria a letra    |
+3. **Gerenciamento de Usinas** – Adicionar, editar, excluir e visualizar informações de usinas.
+
+4. **Gerenciamento de Fontes de Energia** – Adicionar, editar, excluir e visualizar as fontes de energia.
+
+5. **Gerenciamento de Produção de Energia** – Adicionar, editar, excluir e visualizar dados de produção de energia.
+
+6. **Clientes** – Consultar, adicionar, editar e excluir registros de clientes.
+
+7. **Usuários** – Gerenciar usuários (cadastrar, editar, excluir e atribuir permissões).
+
+8. **Dashboard Principal** – Navegar pelo dashboard e visualizar informações consolidadas.
+
+9. **Permissões e Grupos de Permissões** – Definir, editar e excluir permissões e grupos de usuários.
 
 <br>
 
-## Teste 03 - Visualizar recomendações e relatórios de produção
+# Testes Realizados
 
-**Data do Teste:** 26 de novembro de 2024  
+### Teste 01 - Realizar Login e Recuperar Senha
 
-**Local:** Testes realizados de forma remota  
+**Local:** Testes realizados de forma remota.
 
-**Versão do Software:** 4.0  
+**Objetivo:** Avaliar a facilidade de navegação e usabilidade das funcionalidades de login e recuperação de senha.
 
-**Objetivo do Teste:** Avaliar a facilidade de navegação e usabilidade das funcionalidades de visualização de recomendações de melhorias e exportação de dados.
+**Participantes:**
 
-- Visualizar recomendações de melhorias
-  
-- Visualizar e exportar relatórios de produção
+Nicole Andrade (Programadora) — Completou todas as tarefas sem dificuldades.
 
-### Participantes:
+Theo Maciel (Estagiário de projeto fotovoltaico) — Concluiu as tarefas de forma eficiente.
 
-- **Usuário 1:** Mateus Henrique, 26 anos, trabalha em uma empresa de energia eólica verificando dados e fazendo relatórios.
-  
-- **Usuário 2:** Wiliam Moura, 21 anos, estudante universitário, faz estágio em uma empresa que comercializa energia.
-  
-- **Usuário 3:** Tevis Renato, 44 anos, possui energia solar em suas duas casas.
+Jade Dutra (Engenheira elétrica) — Demorou para localizar o campo de recuperação de senha, mas concluiu as tarefas.
 
-### Resultados:
+<br>
 
-- Mateus Henrique: Completou todas as tarefas dentro do tempo estipulado com certa folga.
-  
-- Wiliam Moura: Achou a navegação intuitiva e fácil, porém sugeriu melhorias estéticas para alguns gráficos.
-  
-- Tevis Renato: Completou dentro do tempo as atividades.
+### Teste 02 - Gerenciamento de Usinas, Fontes de Energia e Produção de Energia
 
----
+**Local:** Testes realizados de forma remota.
 
-### Questionário de Satisfação
+**Objetivo:** Avaliar a usabilidade das telas de Gerenciamento de Usinas, Fontes de Energia e Produção de Energia.
 
-| Pergunta                                                        | Usuário 1: Mateus Henrique | Usuário 2: Wiliam Moura | Usuário 3: Tevis Renato |                                             
-|-----------------------------------------------------------------|----------------------------|--------------------------|-------------------------|
-| Como você avaliaria a facilidade de acessar as recomendações e relatórios de produção? | Muito fácil                | Médio                    | Fácil                   |
-| A navegação até a seção foi intuitiva?                         | Muito intuitivo            | Intuitiva                | Intuitiva               |
-| Como você descreveria a experiência?                           | Muito boa                  | Boa                      | Boa                     |
-| Foi fácil extrair as informações?                               | Muito fácil                | Normal                   | Fácil                   |
-| Você tem alguma sugestão para melhorar a navegação ou a apresentação? | Nada a observar            | Opção para destacar informações | Nada a adicionar      |
+**Participantes:**
+
+Juliano Castro (Professor de engenharia elétrica) — Realizou todas as operações sem dificuldades.
+
+Samuel Chaves (Empreendedor) — Sentiu falta de mais filtros de consulta.
+
+Bernardo Rosa (Usuário residencial) — Recomendou melhorias visuais na interface.
+
+<br>
+
+### Teste 03 - Gerenciamento de Clientes
+
+**Local:** Testes realizados de forma remota.
+
+**Objetivo:** Avaliar a facilidade de navegação e usabilidade do gerenciamento de clientes.
+
+**Participantes:**
+
+Matheus Silva (Consultor de Energia) — Concluiu todas as tarefas com facilidade.
+
+Ana Beatriz (Engenheira de projetos) — Relatou dificuldades para localizar o botão de edição de cliente.
+
+João Mendes (Administrador de usina) — Fez sugestões de melhoria na busca por clientes.
+
+<br>
+
+### Teste 04 - Gerenciamento de Usuários e Permissões
+
+**Local:** Testes realizados de forma remota.
+
+**Objetivo:** Avaliar a usabilidade das telas de Usuários, Permissões e Grupos de Permissões.
+
+**Participantes:**
+
+Camila Ferreira (Administradora) — Não teve dificuldade para gerenciar usuários e grupos de permissões.
+
+Pedro Oliveira (Gestor de TI) — Sugestão de melhorias para a exibição das permissões associadas.
+
+Mariana Lima (Coordenadora de operações) — Relatou que as mensagens de erro poderiam ser mais claras.
+
+<br>
+
+### Teste 05 - Dashboard Principal
+
+**Local:** Testes realizados de forma remota.
+
+**Objetivo:** Avaliar a facilidade de navegação e compreensão dos dados exibidos no Dashboard Principal.
+
+**Participantes:**
+
+Gustavo Rios (Diretor de Operações) — Concluiu as tarefas de forma eficiente.
+
+Renata Almeida (Analista de dados) — Sugestão para personalizar os gráficos exibidos no dashboard.
+
+Felipe Santos (Consultor de eficiência energética) — Destacou a necessidade de cores mais contrastantes.
+
+<br>
+
+## Questionário de Satisfação
+
+<div align="center">
+
+<img width="870" alt="image" src="https://github.com/user-attachments/assets/ee8b7080-dfd0-4730-b57d-73c661fbc2c2">
+
+<br>
+
+![image](https://github.com/user-attachments/assets/9bb40a9b-ea20-46f5-a936-ff669edb95f6)
+
+</div>
+
+
+## Análise e Conclusões
+
+Os testes de usabilidade demonstraram que o EcoLogic possui uma interface amigável e intuitiva, mas algumas melhorias foram recomendadas:
+
+
