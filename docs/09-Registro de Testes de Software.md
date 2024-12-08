@@ -51,7 +51,7 @@
 
 <br>
 
-| **Registro de Teste** 	| **CT-05 – Gerenciador de Produção de Energia** 	|
+| **Registro de Teste** 	| **CT-05 – Gerenciamento de Produção de Energia** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-005 - O sistema deve permitir ao administrador gerenciar informações completas sobre usinas e fontes de energia, incluindo a criação, edição, exclusão e visualização de dados de produção para cada usina. |
 |Objetivo: | Avaliar o funcionamento do gerenciador de produção de energia. |
@@ -60,24 +60,7 @@
 
 <br>
 
-| **Registro de Teste** 	| **CT-06 – Teste de Consultas** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RF-008 - O sistema deve fornecer recomendações de melhorias na eficiência energética com base na análise de dados registrados e desempenho atual. |
-|Critérios de Aceitação: | Usuários devem conseguir realizar consultas específicas e obter resultados precisos.|
-|Método: | Teste funcional. |
-|Resultado: | Em processo de testes, as consultas estão operacionais e fornecendo informações conforme esperado.|
 
-<br>
-
-| **Registro de Teste** 	| **CT-07 – Teste de Visualização** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	|RF-006 - O sistema deve gerar relatórios detalhados e gráficos sobre o desempenho energético. |
-|Objetivo: | Avaliar a clareza e a eficácia das visualizações de dados na aplicação.|
-|Critérios de Aceitação: | Usuários devem conseguir visualizar dados de forma clara e compreensível.|
-|Método: | Teste funcional. |
-|Resultado: | Em processo de testes, visualizações estão operacionais, com melhorias em andamento para a estética dos gráficos. |
-
-<br>
 
 ## Avaliação 
 
