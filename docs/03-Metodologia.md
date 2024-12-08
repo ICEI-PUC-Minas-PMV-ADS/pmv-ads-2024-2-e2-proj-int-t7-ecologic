@@ -137,6 +137,8 @@ O progresso das atividades foi acompanhado em reuniões semanais, garantindo a c
 
 ➤	**Figma:** O Figma é a ferramenta escolhida para o design de interfaces e prototipagem de telas. Com ele, os designers podem criar Wireframes e fluxogramas, permitindo uma colaboração eficiente e uma melhor compreensão das necessidades do projeto.
 
+➤ **Canva:** Usado para a criação dos slides de apresentação, logomarca e a identidade visual do EcoLogic. 
+
 ➤	**Ambiente de Trabalho:** Cada membro da equipe utiliza seu próprio ambiente de trabalho, geralmente composto por computadores pessoais ou notebooks com sistemas operacionais compatíveis com as ferramentas de desenvolvimento adotadas.
 
 ➤	**Gestão Ágil:** A equipe adota uma abordagem ágil para o gerenciamento de projetos, utilizando o SCRUM. Metodologia que orienta a divisão do trabalho em sprints, realização de reuniões regulares e a manutenção de um backlog priorizando tarefas, garantindo eficiência e adaptação contínua às necessidades do projeto.
@@ -144,6 +146,10 @@ O progresso das atividades foi acompanhado em reuniões semanais, garantindo a c
 ➤	**Visual Studio Code (VS Code):** O VS Code é utilizado como ambiente de desenvolvimento pela equipe. Ele oferece recursos avançados de edição de código, integração com o GitHub e da suporte a diversas linguagens de programação, facilitando o desenvolvimento e a colaboração entre os membros da equipe.
 
 ➤	**Diagrams:** Ferramenta utilizada para criar diagramas e visualizar fluxos de trabalho, facilitando a compreensão e comunicação de processos e arquitetura do sistema.
+
+➤ **Azure:** Utilizado para a hospedagem do site do projeto EcoLogic, garantindo a disponibilização da aplicação na web. A Azure oferece escalabilidade, segurança e alta disponibilidade, sendo fundamental para a entrega de uma solução robusta e acessível aos usuários.
+
+<br>
 
 ### Estratégia de Organização de Codificação 
 
