@@ -1,6 +1,5 @@
 # Registro de Testes de Software
 
-## Informações Gerais 
 
 **Data do Registro:** 27 de novembro 2024
 
