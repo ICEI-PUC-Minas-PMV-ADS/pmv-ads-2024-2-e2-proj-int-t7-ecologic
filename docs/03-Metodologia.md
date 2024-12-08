@@ -27,7 +27,6 @@ etiquetas:
 
 ## Gerenciamento de Projeto
 
-
 A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM. Nós optamos por este método devido à sua flexibilidade, que nos permite adaptar rapidamente às mudanças nos requisitos, uma situação comum em projetos. O SCRUM se baseia em princípios iterativos e incrementais, permitindo entregas contínuas e a adaptação ao longo do processo (SCHWABER; SUTHERLAND, 2017). Além disso, ele favorece a realização de ciclos curtos de trabalho, possibilitando entregas frequentes de funcionalidades.
 
 ## Divisão de Papéis
@@ -38,7 +37,7 @@ A divisão de papéis dentro de nossa equipe, que utilizará o método ágil SCR
 
 • **Product Owner:** Raphael Rodrigues.
 
-• **Equipe de Desenvolvimento:** Ariane Moura, Alexsander, Leticia, Raphael, Vinicius, Breno Marques, Marytom.
+• **Equipe de Desenvolvimento:** Ariane Moura, Alexsander, Leticia, Raphael, Vinicius, Breno Marques.
 
 • **Equipe de Design:** Ariane Moura, Raphael Rodrigues.
 
@@ -74,11 +73,15 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 
 ## Etapa 1 e 2:
+
+<div align="center">
+
 ![image](https://github.com/user-attachments/assets/4ddb709c-cd54-41e7-80ee-0ef89f2dee03)
+
+</div>
 
 <!-- <h4 align="center">FIGURA 06</h4> -->
 
-<br>
 
 ### Planejamento:
 
@@ -103,7 +106,11 @@ Além das atas, foram produzidos materiais documentais, a logo do projeto, e a a
 
 ## Etapa 3:
 
+<div align="center">
+
 ![Screenshot_1](https://github.com/user-attachments/assets/01b2c83d-4d82-4415-8089-1828c2902294)
+
+</div>
 
 <!-- <h4 align="center">FIGURA 07</h4> -->
 
@@ -111,11 +118,14 @@ Além das atas, foram produzidos materiais documentais, a logo do projeto, e a a
 
 ## Etapa 4:
 
+<div align="center">
+
 ![Captura de tela 2024-11-24 220644](https://github.com/user-attachments/assets/bcc1099e-8714-4b98-8f28-bb1b93128e21)
 
-<!-- <h4 align="center">FIGURA 07</h4> -->
+</div>
 
-<br>
+<!-- <h4 align="center">FIGURA 08</h4> -->
+
 
 ### Planejamento:
 
@@ -133,6 +143,20 @@ O progresso das atividades foi acompanhado em reuniões semanais, garantindo a c
 
 ## Etapa 5:
 
+<div align="center">
+
+![Captura de tela 2024-12-08 175011](https://github.com/user-attachments/assets/0d84b135-0aef-4dcd-87ff-8948088c2487)
+
+<!-- <h4 align="center">FIGURA 09</h4> -->
+
+<br>
+
+![Captura de tela 2024-12-08 180752](https://github.com/user-attachments/assets/150bf2fe-fee1-46af-a60e-461db93ec621)
+
+<!-- <h4 align="center">FIGURA 10</h4> -->
+
+</div>
+
 ### Planejamento:
 
 O planejamento desta etapa foi desenvolvido com foco na integração e no refinamento das entregas do projeto. Inicialmente, foi realizada uma análise detalhada do código já implementado, revisando sua funcionalidade, consistência e aderência aos requisitos definidos anteriormente. Paralelamente, iniciou-se a elaboração de um roteiro estruturado, que servirá como base para a construção do vídeo de apresentação e para a exposição do projeto de forma clara e objetiva.
@@ -147,14 +171,9 @@ Durante esse período, um roteiro detalhado foi desenvolvido, orientando a elabo
 
 Por fim, o esforço conjunto da equipe garantiu que todas as entregas fossem alinhadas com os objetivos propostos, consolidando o projeto como uma realização bem-sucedida e pronta para apresentação.
 
-### Quadro Kanban no início e final da etapa 5:
-
-![Captura de tela 2024-12-08 175011](https://github.com/user-attachments/assets/0d84b135-0aef-4dcd-87ff-8948088c2487)
 <br>
-![Captura de tela 2024-12-08 180752](https://github.com/user-attachments/assets/150bf2fe-fee1-46af-a60e-461db93ec621)
 
-
-### Ferramentas
+## Ferramentas
 
 ➤ **GitHub:** É utilizado como plataforma de hospedagem de repositórios de código-fonte. O GitHub permite que a equipe mantenha todos os arquivos do projeto organizados. Através dele, os membros realizam commits regulares e criam branches para desenvolver novas funcionalidades ou corrigir bugs. Além disso, o GitHub é utilizado para gerenciar um quadro Kanban, facilitando a organização e o acompanhamento das tarefas do projeto.
 
@@ -178,6 +197,6 @@ Por fim, o esforço conjunto da equipe garantiu que todas as entregas fossem ali
 
 <br>
 
-### Estratégia de Organização de Codificação 
+## Estratégia de Organização de Codificação 
 
 Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto da aplicação foram inseridos no [Código Fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-ecologic/tree/main/src/app). 
