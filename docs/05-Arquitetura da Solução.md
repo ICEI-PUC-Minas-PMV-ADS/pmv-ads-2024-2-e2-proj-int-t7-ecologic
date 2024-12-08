@@ -75,19 +75,20 @@ Abaixo, descrevemos como as tecnologias interagem no fluxo de uma operação do 
 
 Essas tecnologias, trabalhando em conjunto, proporcionam uma aplicação escalável, segura e eficiente para o monitoramento e gestão de usinas de energia renovável no EcoLogic.
 
-<!-- ## Hospedagem
+<br>
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+## Hospedagem do Sistema EcoLogic
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html) -->
+A plataforma EcoLogic foi hospedada na **Microsoft Azure**, garantindo uma solução segura, escalável e de alta disponibilidade para os usuários. A escolha da **Azure** se deu pela sua capacidade de oferecer um ambiente robusto para o desenvolvimento, teste e disponibilização de aplicações web, além de suportar as tecnologias utilizadas no projeto, como ASP.NET Core e SQL Server.
+
+O processo de hospedagem envolveu a configuração de um App Service na Azure, onde o aplicativo foi implantado diretamente a partir do repositório do GitHub, permitindo a integração contínua (CI/CD) e facilitando as atualizações automáticas. Essa abordagem garantiu que todas as alterações feitas no repositório fossem refletidas no ambiente de produção de forma ágil e controlada.
+
+Além disso, a Azure proporcionou um ambiente seguro e protegido, com recursos de monitoramento e logs em tempo real, permitindo a análise de desempenho e a identificação de possíveis falhas. A hospedagem na Azure assegura que o EcoLogic esteja sempre acessível aos usuários, mantendo alta disponibilidade e desempenho consistente.
+
+Com essa estratégia, o sistema passou a ser acessível via navegador, sem a necessidade de instalações locais, proporcionando praticidade e acessibilidade para as equipes que utilizam a plataforma para gerenciamento de usinas de energia renovável.
 
 
-### Hospedagem
+### Link da Hospedagem:
 
-Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto da aplicação foram inseridos no [Código Fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-ecologic/tree/main/src/app). 
+https://ecologic-adeqbxd2fuc8a8gm.eastus2-01.azurewebsites.net/
 
