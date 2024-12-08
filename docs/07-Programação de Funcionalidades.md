@@ -14,18 +14,29 @@
 |RF-009| O sistema deve permitir o gerenciamento completo dos usuários, incluindo cadastro, edição, visualização e exclusão de informações. | Tela de Usuários | Ariane e Raphael |
 |RF-010| O sistema deve permitir o gerenciamento de permissões e grupos de permissões, possibilitando a criação, edição e atribuição de permissões a usuários. | Tela de Permissões e Tela de Grupos de Permissões | Raphael |
 
-<!-- # Instruções de acesso
+<br>
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+# Instruções de Acesso ao Sistema EcoLogic
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
 
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+Para acessar a aplicação EcoLogic como administrador, siga as orientações abaixo:
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm) -->
+<br>
+
+🔗 **Link de Acesso:** https://ecologic-adeqbxd2fuc8a8gm.eastus2-01.azurewebsites.net/
+
+<br>
+
+🔐 **Credenciais de Acesso (Administrador):**
+
+- **E-mail:** admin@ecologic.com.br
+
+- **Senha:** 123456
+
+<br>
+
+**Passos para Acesso:**
+1. Clique no link de acesso fornecido acima;
+2. Na Tela de Login, insira o e-mail e a senha de administrador nos campos correspondentes;
+3. Clique no botão "Entrar" para acessar o sistema com privilégios administrativos.
+
