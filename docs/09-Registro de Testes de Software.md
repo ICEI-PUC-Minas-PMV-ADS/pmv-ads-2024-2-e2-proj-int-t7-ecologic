@@ -2,9 +2,9 @@
 
 ## Informações Gerais 
 
-**Data do Registro:** 27 de outubro de 2024
+**Data do Registro:** 27 de novembro 2024
 
-**Versão do Software:** 1.0
+**Versão do Software:** 4.0
 
 **Responsável pelo Teste:** Vinícius Simões
 
