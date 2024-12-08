@@ -30,7 +30,7 @@ etiquetas:
 
 A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM. Nós optamos por este método devido à sua flexibilidade, que nos permite adaptar rapidamente às mudanças nos requisitos, uma situação comum em projetos. O SCRUM se baseia em princípios iterativos e incrementais, permitindo entregas contínuas e a adaptação ao longo do processo (SCHWABER; SUTHERLAND, 2017). Além disso, ele favorece a realização de ciclos curtos de trabalho, possibilitando entregas frequentes de funcionalidades.
 
-### Divisão de Papéis
+## Divisão de Papéis
 
 A divisão de papéis dentro de nossa equipe, que utilizará o método ágil SCRUM como base para definir os processos de desenvolvimento, é fundamental para garantir a eficiência e a clareza nas responsabilidades. Por isso, a equipe está organizada da seguinte forma:
 
@@ -44,7 +44,7 @@ A divisão de papéis dentro de nossa equipe, que utilizará o método ágil SCR
 
 Essa estrutura assegura que cada membro tenha um papel claro, promovendo assim a colaboração e alinhamento com os objetivos do projeto. O Scrum Master será responsável por facilitar o processo e remover obstáculos, enquanto o Product Owner definirá as prioridades do backlog e irá assegurar que as entregas atendam às expectativas dos stakeholders (Clientes). As equipes de desenvolvimento e design trabalharão em conjunto para implementar as funcionalidades e criar soluções visuais que atendam às necessidades do projeto.
 
-### Processo
+## Processo
 
 Para a implementação do SCRUM, seguimos uma série de práticas que garantem a eficiência e a organização do nosso trabalho:
 
@@ -73,33 +73,35 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 <br>
 
 
-#### Etapa 1 e 2:
+## Etapa 1 e 2:
 ![image](https://github.com/user-attachments/assets/4ddb709c-cd54-41e7-80ee-0ef89f2dee03)
 
 <!-- <h4 align="center">FIGURA 06</h4> -->
 
 <br>
 
-**1.1 Planejamento:**
+### Planejamento:
+
 Nesta etapa inicial, foi discutido e definido o problema central a ser abordado: a otimização da gestão e operação de usinas de energia, com foco em eficiência energética e sustentabilidade. Foram estabelecidos os objetivos do projeto,. Além disso, foram propostos os Requisitos Funcionais e Não-Funcionais necessários, e as restrições técnicas e regulatórias que a solução deverá observar.
 
 Como parte do planejamento, foi desenvolvida uma apresentação com a abordagem geral do projeto e um vídeo que sintetiza os principais pontos e propósitos da solução proposta. Após a formação da equipe, foram estabelecidos canais de comunicação e planejamento de reuniões semanais por meio das plataformas Microsoft Teams, além de um grupo no WhatsApp para discussões rápidas e troca de ideias.
 
 Por fim, foi elaborada e entregue a documentação referente a esta fase inicial, contendo as seções de Documentação do Contexto e a Especificação do Projeto, que detalha os principais aspectos técnicos e operacionais.
 
-**1.2 Execução:**
+### Execução:
 Durante a fase de execução, foram realizados encontros semanais com o orientador para direcionamento e orientação quanto à documentação, o uso do GitHub. O orientador também sugeriu melhorias e correções, que foram implementadas no decorrer dos encontros.
 
 As reuniões da equipe ocorreram de uma a duas vezes por semana no Teams, devido à natureza crítica das definições desta etapa. Cada encontro resultou na distribuição de tarefas entre os membros, visando o avanço e refinamento das documentações e diagramas técnicos.
 
-**1.3 Evidências:**
+### Evidências
+
 Para garantir o registro de todas as definições e decisões, foram realizados encontros e reuniões da equipe, documentados em atas, que cobriram discussões sobre objetivos, perfis de usuário, requisitos, restrições, e outros pontos essenciais para o desenvolvimento do projeto. Essas atas serviram como base para a divisão de tarefas e organização do trabalho em equipe.
 
 Além das atas, foram produzidos materiais documentais, a logo do projeto, e a apresentação oficial da Etapa 1, que incluiu os principais pontos discutidos e definidos até o momento.
 
 <br>
 
-#### Etapa 3:
+## Etapa 3:
 
 ![Screenshot_1](https://github.com/user-attachments/assets/01b2c83d-4d82-4415-8089-1828c2902294)
 
@@ -107,13 +109,15 @@ Além das atas, foram produzidos materiais documentais, a logo do projeto, e a a
 
 <br>
 
-#### Etapa 4:
+## Etapa 4:
 
 ![Captura de tela 2024-11-24 220644](https://github.com/user-attachments/assets/bcc1099e-8714-4b98-8f28-bb1b93128e21)
 
 <!-- <h4 align="center">FIGURA 07</h4> -->
 
 <br>
+
+### Planejamento:
 
 O planejamento desta etapa foi realizado utilizando a metodologia ágil SCRUM, com foco na entrega incremental das funcionalidades do sistema de gerenciamento de usinas de energia. Após revisar o backlog do projeto, a equipe definiu as prioridades desta Sprint, alinhando ao objetivo principal de aprimorar a eficiência na gestão energética e promover a sustentabilidade.
 
@@ -126,6 +130,25 @@ As seguintes funcionalidades foram priorizadas:
 O progresso das atividades foi acompanhado em reuniões semanais, garantindo a colaboração entre os membros e a resolução de problemas.
 
 <br>
+
+## Etapa 5:
+
+### Planejamento:
+
+O planejamento desta etapa foi desenvolvido com foco na integração e no refinamento das entregas do projeto. Inicialmente, foi realizada uma análise detalhada do código já implementado, revisando sua funcionalidade, consistência e aderência aos requisitos definidos anteriormente. Paralelamente, iniciou-se a elaboração de um roteiro estruturado, que servirá como base para a construção do vídeo de apresentação e para a exposição do projeto de forma clara e objetiva.
+
+A equipe realizou reuniões periódicas para alinhar as expectativas e redistribuir as atividades finais, garantindo que cada membro pudesse contribuir com a revisão e finalização de suas respectivas tarefas. O objetivo foi assegurar que todos os aspectos do projeto fossem concluídos dentro dos prazos estabelecidos e com a qualidade esperada.
+
+### Execução:
+
+A execução concentrou-se no cumprimento das metas estabelecidas durante o planejamento. As tarefas pendentes foram revisadas cuidadosamente, corrigindo eventuais inconsistências e realizando atualizações necessárias. Cada membro da equipe assumiu a responsabilidade por etapas específicas, promovendo uma colaboração eficaz e eficiente.
+
+Durante esse período, um roteiro detalhado foi desenvolvido, orientando a elaboração da apresentação final. Este roteiro abrangeu desde a introdução do projeto e seus objetivos principais até as etapas técnicas e os resultados alcançados. A construção desse material foi pensada para destacar os pontos fortes do projeto, facilitando a comunicação clara e objetiva das ideias, tanto no formato de vídeo quanto na apresentação oral.
+
+Por fim, o esforço conjunto da equipe garantiu que todas as entregas fossem alinhadas com os objetivos propostos, consolidando o projeto como uma realização bem-sucedida e pronta para apresentação.
+
+### Quadro Kanban no início e final da etapa 5:
+
 
 ### Ferramentas
 
