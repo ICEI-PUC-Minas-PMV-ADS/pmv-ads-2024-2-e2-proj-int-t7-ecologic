@@ -132,9 +132,6 @@ O progresso das atividades foi acompanhado em reuniões semanais, garantindo a c
 <br>
 
 ## Etapa 5:
-![Captura de tela 2024-12-08 175011](https://github.com/user-attachments/assets/0d84b135-0aef-4dcd-87ff-8948088c2487)
-<br>
-![Captura de tela 2024-12-08 180752](https://github.com/user-attachments/assets/150bf2fe-fee1-46af-a60e-461db93ec621)
 
 ### Planejamento:
 
@@ -151,6 +148,10 @@ Durante esse período, um roteiro detalhado foi desenvolvido, orientando a elabo
 Por fim, o esforço conjunto da equipe garantiu que todas as entregas fossem alinhadas com os objetivos propostos, consolidando o projeto como uma realização bem-sucedida e pronta para apresentação.
 
 ### Quadro Kanban no início e final da etapa 5:
+
+![Captura de tela 2024-12-08 175011](https://github.com/user-attachments/assets/0d84b135-0aef-4dcd-87ff-8948088c2487)
+<br>
+![Captura de tela 2024-12-08 180752](https://github.com/user-attachments/assets/150bf2fe-fee1-46af-a60e-461db93ec621)
 
 
 ### Ferramentas
