@@ -3,8 +3,8 @@
 
 |ID    | Descrição do Requisito  | Artefatos produzidos | Aluno(a) responsável |
 |------|-----------------------------------------|----|----|
-|RF-001| O sistema deve permitir que os usuários realizem login com credenciais válidas. | Tela de Login  | Alexsander |
-|RF-002| O sistema deve disponibilizar uma página de recuperação de acesso. | Tela de Recuperação de Acesso | Vinicius |
+|RF-001| O sistema deve permitir que os usuários realizem login com credenciais válidas. | Tela de Login  | Alexsander e Vinicius |
+|RF-002| O sistema deve disponibilizar uma página de recuperação de acesso. | Tela de Recuperação de Acesso | Vinicius e Alexsander |
 |RF-003| O administrador deve ser capaz de cadastrar, editar e visualizar informações de clientes ou usuários no sistema. | Tela de Clientes e Usuários | Raphael |
 |RF-004| O sistema deve permitir ao administrador o gerenciamento completo das informações sobre as usinas cadastradas. | Tela de Usinas | Raphael |
 |RF-005| O sistema deve permitir ao administrador o gerenciamento completo das informações sobre as fontes de energia. | Tela de Fontes de Energia | Raphael |
