@@ -395,11 +395,10 @@ label {
 #eficiencia {
     width: 350px;
     height: 60px;
+    margin-left: 5%; 
     opacity: 0px;
-    margin-top: -1%;
-    margin-left: 10%;
-    margin-bottom: 20px;
     background-color: #8DB5AD;
+    margin-bottom: 20px;
     box-sizing: border-box;
 }
 #descricao {
@@ -424,13 +423,7 @@ label {
     margin-left: 5%;
 }
 #estado {
-  width: 350px;
-    height: 60px;
-    margin-left: 5%; 
-    opacity: 0px;
-    background-color: #8DB5AD;
-    margin-bottom: 20px;
-    box-sizing: border-box;
+ 
 }
 #capacidade {
     width: 350px;
