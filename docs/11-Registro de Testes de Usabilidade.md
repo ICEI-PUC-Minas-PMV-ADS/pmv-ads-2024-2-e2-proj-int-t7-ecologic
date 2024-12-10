@@ -1,67 +1,144 @@
-# Relatório de Teste de Usabilidade do Sistema EcoLogic
+# Registro de Testes de Usabilidade
 
-**Universidade Católica de Minas Gerais - PUC Minas**  
-**Disciplina:** Projeto: Desenvolvimento de uma Aplicação Interativa  
-**Turma:** 07 - 2024/2  
-**Data:**  
-**Versão do Software Testado:** 4.0
+**Data do Registro:** 27 de novembro 2024
 
-Os testes de usabilidade do sistema EcoLogic foram conduzidos com sucesso, abrangendo diversas funcionalidades, como login, recuperação de senha, gerenciamento de usinas, visualização de relatórios e recomendações. Os participantes apresentaram feedback valioso que levou a melhorias significativas na interface e na experiência geral do usuário.
+**Versão do Software:** 4.0
 
-## 1. Teste de Login e Recuperação de Senha
-No primeiro teste, que envolveu login e recuperação de senha, os participantes **Nicole Andrade**, **Theo Maciel** e **Jade Dutra** destacaram a clareza dos campos obrigatórios e a facilidade de acesso ao sistema. Nicole e Theo não encontraram dificuldades, mas Jade sugeriu que as opções de recuperação de senha fossem mais destacadas. Essa sugestão foi prontamente implementada, com o aprimoramento da visibilidade do botão de recuperação de senha e a adição de ícones intuitivos, melhorando a acessibilidade dessa funcionalidade.
+<br>
 
-## 2. Teste de Gerenciamento de Usinas, Fontes de Energia e Produção
-O segundo teste focou no gerenciamento de usinas, fontes de energia e produção. Participantes como **Juliano Castro** e **Samuel Chaves** elogiaram a clareza das informações e a fluidez do gerenciamento. No entanto, Samuel sugeriu a inclusão de mais opções de filtros, enquanto **Bernardo Rosa** mencionou a simplicidade da interface visual e propôs o aumento do tamanho das fontes. Essas observações resultaram na implementação de novos filtros avançados para facilitar a pesquisa de dados específicos e na reformulação do design, com fontes maiores e melhor espaçamento, garantindo maior conforto visual.
+## **Objetivo**
 
-## 3. Teste de Visualização e Exportação de Relatórios
-Por fim, no teste de visualização e exportação de relatórios, **Mateus Henrique** elogiou a facilidade de acesso e navegação, enquanto **Wiliam Moura** sugeriu melhorias estéticas nos gráficos para destacar informações importantes. Com base nesse feedback, os gráficos receberam uma atualização visual significativa, com cores mais vibrantes, legendas claras e opções de destaque para informações críticas. Isso garantiu que os dados fossem apresentados de forma mais atraente e funcional, melhorando a compreensão e análise por parte dos usuários.
+Avaliar a usabilidade da aplicação EcoLogic, garantindo que o sistema seja intuitivo, eficiente e atenda às expectativas dos usuários. O foco dos testes inclui as telas de Login, Recuperação de Senha, Gerenciamento de Usinas, Fontes de Energia, Produção de Energia, Clientes, Usuários, Dashboard Principal, Permissões e Grupos de Permissões.
 
-## 4. Conclusões
-Com base nesses resultados, o EcoLogic evoluiu para um sistema mais intuitivo, eficiente e visualmente agradável. As melhorias implementadas demonstram o compromisso com a excelência em usabilidade e a atenção às necessidades dos usuários, garantindo uma experiência enriquecedora e produtiva para todos os perfis envolvidos.
+**Os critérios avaliados foram:**
 
----
+- Facilidade de navegação.
+- Compreensão dos rótulos e mensagens.
+- Tempo de conclusão de tarefas.
+- Satisfação geral dos usuários.
+  
 
-# Detalhamento dos Testes de Usabilidade
+## **Metodologia**
 
-Os testes de usabilidade do EcoLogic foram realizados com o objetivo de avaliar a eficiência, clareza e navegação da aplicação. Foram conduzidos três testes principais, focados em funcionalidades essenciais, incluindo login e recuperação de senha, gerenciamento de usinas e fontes de energia, e visualização/exportação de relatórios. As sugestões dos usuários foram incorporadas ao desenvolvimento, melhorando significativamente a experiência do usuário.
+Os testes de usabilidade foram conduzidos com 10 usuários (5 administradores e 5 usuários comuns) que interagiram com as telas e realizaram as seguintes tarefas:
 
-## Resultados e Melhorias Implementadas
+1. **Login** – Acessar o sistema com credenciais válidas.
 
-### 1. Login e Recuperação de Senha
-- **Problema Identificado:** Jade Dutra relatou que a opção de recuperação de senha poderia ser mais visível.
-- **Solução Implementada:** Melhoramos a visibilidade do campo de recuperação de senha, adicionando ícones e botões mais destacados, além de cores contrastantes.
+2. **Recuperação de Senha** – Recuperar a senha através do e-mail de cadastro.
 
-**Resultados Após Melhorias:**  
-Todos os participantes puderam realizar o login e recuperar senha com mais facilidade e em menor tempo, reduzindo o tempo médio de recuperação de senha em 15%.
+3. **Gerenciamento de Usinas** – Adicionar, editar, excluir e visualizar informações de usinas.
 
-### 2. Gerenciamento de Usinas, Fontes de Energia e Produção
-- **Problema Identificado:** Samuel Chaves sentiu falta de mais opções de filtros para os dados. Bernardo Rosa sugeriu melhorias estéticas, como aumento no tamanho da fonte.
-- **Solução Implementada:** Adicionamos novos filtros de busca e refinamento, permitindo que os usuários pesquisem por data, tipo de energia e localização. A interface foi redesenhada com fontes maiores e melhorias no layout.
+4. **Gerenciamento de Fontes de Energia** – Adicionar, editar, excluir e visualizar as fontes de energia.
 
-**Resultados Após Melhorias:**  
-O gerenciamento se tornou mais ágil, e o feedback geral indicou maior clareza nas informações, com aumento de 20% na satisfação dos usuários com a interface.
+5. **Gerenciamento de Produção de Energia** – Adicionar, editar, excluir e visualizar dados de produção de energia.
 
-### 3. Visualização e Exportação de Relatórios de Produção
-- **Problema Identificado:** Wiliam Moura sugeriu melhorias estéticas nos gráficos e destacou a necessidade de destacar informações relevantes.
-- **Solução Implementada:** Reformulamos os gráficos com cores mais vibrantes, maior contraste, e incluímos a opção de destacar dados específicos para melhor visualização.
+6. **Clientes** – Consultar, adicionar, editar e excluir registros de clientes.
 
-**Resultados Após Melhorias:**  
-Os relatórios agora são gerados com mais clareza e atraem mais atenção visual, resultando em um aumento de 25% na velocidade de extração de informações e melhoria na avaliação de usabilidade.
+7. **Usuários** – Gerenciar usuários (cadastrar, editar, excluir e atribuir permissões).
 
----
+8. **Dashboard Principal** – Navegar pelo dashboard e visualizar informações consolidadas.
 
-# Análise das Métricas de Usabilidade
+9. **Permissões e Grupos de Permissões** – Definir, editar e excluir permissões e grupos de usuários.
 
-| Métrica                          | Resultado Inicial | Resultado Pós-Melhoria |
-|-----------------------------------|-------------------|------------------------|
-| Tempo médio para login            | 30 segundos       | 20 segundos            |
-| Tempo médio de recuperação de senha| 5 minutos         | 4 minutos              |
-| Satisfação geral com a interface   | 4/5               | 4,8/5                  |
-| Facilidade em acessar relatórios  | 3,8/5             | 4,5/5                  |
+<br>
 
----
+# Testes Realizados
 
-# Conclusão e Recomendações Finais
+### Teste 01 - Realizar Login e Recuperar Senha
 
-O teste de usabilidade evidenciou que o EcoLogic evoluiu consideravelmente com as melhorias implementadas, resultando em uma interface mais clara, acessível e eficiente. As sugestões dos usuários foram fundamentais para garantir um sistema mais intuitivo e visualmente atraente. Recomenda-se a continuidade dos testes periódicos para acompanhar as necessidades dos usuários e futuras melhorias.
+**Local:** Testes realizados de forma remota.
+
+**Objetivo:** Avaliar a facilidade de navegação e usabilidade das funcionalidades de login e recuperação de senha.
+
+**Participantes:**
+
+Nicole Andrade (Programadora) — Completou todas as tarefas sem dificuldades.
+
+Theo Maciel (Estagiário de projeto fotovoltaico) — Concluiu as tarefas de forma eficiente.
+
+Jade Dutra (Engenheira elétrica) — Demorou para localizar o campo de recuperação de senha, mas concluiu as tarefas.
+
+<br>
+
+### Teste 02 - Gerenciamento de Usinas, Fontes de Energia e Produção de Energia
+
+**Local:** Testes realizados de forma remota.
+
+**Objetivo:** Avaliar a usabilidade das telas de Gerenciamento de Usinas, Fontes de Energia e Produção de Energia.
+
+**Participantes:**
+
+Juliano Castro (Professor de engenharia elétrica) — Realizou todas as operações sem dificuldades.
+
+Samuel Chaves (Empreendedor) — Sentiu falta de mais filtros de consulta.
+
+Bernardo Rosa (Usuário residencial) — Recomendou melhorias visuais na interface.
+
+<br>
+
+### Teste 03 - Gerenciamento de Clientes
+
+**Local:** Testes realizados de forma remota.
+
+**Objetivo:** Avaliar a facilidade de navegação e usabilidade do gerenciamento de clientes.
+
+**Participantes:**
+
+Matheus Silva (Consultor de Energia) — Concluiu todas as tarefas com facilidade.
+
+Ana Beatriz (Engenheira de projetos) — Relatou dificuldades para localizar o botão de edição de cliente.
+
+João Mendes (Administrador de usina) — Fez sugestões de melhoria na busca por clientes.
+
+<br>
+
+### Teste 04 - Gerenciamento de Usuários e Permissões
+
+**Local:** Testes realizados de forma remota.
+
+**Objetivo:** Avaliar a usabilidade das telas de Usuários, Permissões e Grupos de Permissões.
+
+**Participantes:**
+
+Camila Ferreira (Administradora) — Não teve dificuldade para gerenciar usuários e grupos de permissões.
+
+Pedro Oliveira (Gestor de TI) — Sugestão de melhorias para a exibição das permissões associadas.
+
+Mariana Lima (Coordenadora de operações) — Relatou que as mensagens de erro poderiam ser mais claras.
+
+<br>
+
+### Teste 05 - Dashboard Principal
+
+**Local:** Testes realizados de forma remota.
+
+**Objetivo:** Avaliar a facilidade de navegação e compreensão dos dados exibidos no Dashboard Principal.
+
+**Participantes:**
+
+Gustavo Rios (Diretor de Operações) — Concluiu as tarefas de forma eficiente.
+
+Renata Almeida (Analista de dados) — Sugestão para personalizar os gráficos exibidos no dashboard.
+
+Felipe Santos (Consultor de eficiência energética) — Destacou a necessidade de cores mais contrastantes.
+
+<br>
+
+## Questionário de Satisfação
+
+<div align="center">
+
+<img width="870" alt="image" src="https://github.com/user-attachments/assets/ee8b7080-dfd0-4730-b57d-73c661fbc2c2">
+
+<br>
+
+![image](https://github.com/user-attachments/assets/9bb40a9b-ea20-46f5-a936-ff669edb95f6)
+
+</div>
+
+
+## Análise e Conclusões
+
+Os testes de usabilidade demonstraram que o EcoLogic possui uma interface amigável e intuitiva, mas algumas melhorias foram recomendadas:
+
+
