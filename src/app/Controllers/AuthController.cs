@@ -95,32 +95,29 @@ public class AuthController : Controller
     public async Task<IActionResult> RecuperarSenha(string email)
     {
         var usuario = await _dbContext.Usuarios.FirstOrDefaultAsync(u => u.Email == email);
+
         if (usuario == null)
         {
+            Console.WriteLine($"Usuario não encontrado para o email: {email}");
             TempData["SuccessMessage"] = "Se o e-mail existir, você receberá instruções para redefinir a senha.";
             return RedirectToAction("RecuperarSenha");
         }
 
         // Gera um token para recuperação de senha
         var token = Convert.ToBase64String(RandomNumberGenerator.GetBytes(32));
-        var expiracao = DateTime.UtcNow.AddHours(1);
+       
+       //Atualização do registro de usuário com Token
+       usuario.Token = token;
 
-        // Salva o token no banco de dados
-        var tokenRecuperacao = new TokenRecuperacaoSenha
-        {
-            UsuarioId = usuario.Id,
-            Token = token,
-            DataExpiracao = expiracao
-        };
+       _dbContext.Update(usuario);
 
-        _dbContext.TokensRecuperacaoSenha.Add(tokenRecuperacao);
-        await _dbContext.SaveChangesAsync();
+       await _dbContext.SaveChangesAsync();
 
         // Gera o link de recuperação
         var resetLink = Url.Action(
             "RedefinirSenha",
             "Auth",
-            new { token },
+            new { email, token },
             Request.Scheme);
 
         // Envia o e-mail
@@ -132,9 +129,13 @@ public class AuthController : Controller
 
     // Método para exibir a página de redefinição de senha
     [HttpGet]
-    public IActionResult RedefinirSenha(string token)
+    public IActionResult RedefinirSenha(string token, string email)
     {
-        var model = new RedefinirSenhaViewModel { Token = token };
+        var model = new RedefinirSenhaViewModel { Token = token, Email = email };
+
+        Console.WriteLine($"Token recebido: {token}");
+        Console.WriteLine($"Email recebido: {email}");
+
         return View(model);
     }
 
@@ -142,35 +143,40 @@ public class AuthController : Controller
     [HttpPost]
     public async Task<IActionResult> RedefinirSenha(RedefinirSenhaViewModel model)
     {
+
+
         if (!ModelState.IsValid)
         {
+            
             return View(model);
         }
 
-        var token = await _dbContext.TokensRecuperacaoSenha
-            .Include(t => t.Usuario)
-            .FirstOrDefaultAsync(t => t.Token == model.Token && t.DataExpiracao > DateTime.UtcNow);
 
-        if (token == null)
-        {
-            ModelState.AddModelError("", "Token inválido ou expirado.");
-            return View(model);
+        var usuario = await _dbContext.Usuarios.FirstOrDefaultAsync(u => u.Email == model.Email && u.Token == model.Token);
+
+      
+
+        if(usuario == null){
+            TempData["ErrorMessage"] = "Usuário não encontrado";
+            return RedirectToAction("RedefinirSenha", model);
         }
 
-        // Atualiza a senha do usuário (hash em produção)
-        token.Usuario.Password = model.NovaSenha;
-        _dbContext.TokensRecuperacaoSenha.Remove(token); // Remove o token após o uso
+
+        usuario.Password = model.NovaSenha;
+
+        _dbContext.Update(usuario);
+
         await _dbContext.SaveChangesAsync();
 
         TempData["SuccessMessage"] = "Senha redefinida com sucesso. Faça login.";
-        return RedirectToAction("Login");
+
+        return RedirectToAction("RedefinirSenha");
     }
 
     private async Task EnviarEmailAsync(string email, string assunto, string mensagem)
     {
-        // Implementar envio de e-mail
-        // Placeholder (?)
         Console.WriteLine($"Email enviado para {email}: {mensagem}");
+        
         await Task.CompletedTask;
     }
 }

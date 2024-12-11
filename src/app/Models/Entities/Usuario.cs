@@ -24,7 +24,11 @@ namespace app.Models.Entities
         public Cliente Cliente { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;
+        
+        
         public DateTime? UpdatedAt { get; set; }
+
+        public string? Token { get; set; }
 
         public ICollection<GrupoPermissao> GruposPermissoes { get; set; } = new List<GrupoPermissao>();
     }

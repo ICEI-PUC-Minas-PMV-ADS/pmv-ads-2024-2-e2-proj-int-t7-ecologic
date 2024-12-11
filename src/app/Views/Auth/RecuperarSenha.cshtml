@@ -1,20 +1,15 @@
 @using app.Models.ViewModels
 
-@model RedefinirSenhaViewModel
+@model RecuperarSenhaViewModel
 
 @{
     Layout = "_MainLayout";
     ViewData["Title"] = "Redefinir Senha";
 }
 
-<div class="text-center">
-    <img src="../../images/logosemfundo.png" alt="logomarca" class="img-fluid"
-        style="width: 320px; margin-top: 6rem; margin-bottom: 6rem;">
-</div>
-
 <div class="row justify-content-center">
     <div class="col-md-4">
-        <h1 class="text-center mb-5 mt-5" style="font-size: 42px;">Redefinir Acesso</h1>
+        <h2 class="text-center mb-4">Redefinir Senha</h2>
 
         <!-- Mensagem de sucesso ou erro -->
         @if (TempData["SuccessMessage"] != null)
@@ -31,37 +26,23 @@
             </div>
         }
 
-        <form asp-action="RedefinirSenha" method="post">
+        <form asp-action="RecuperarSenha" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-            <!-- Campo para a nova senha -->
+            <!-- Campo para e-mail -->
             <div class="form-group mb-3">
-                <label for="NovaSenha">Nova Senha</label>
-                <input asp-for="NovaSenha" type="password" id="NovaSenha" class="form-control" required />
-                <span asp-validation-for="NovaSenha" class="text-danger"></span>
-            </div>
+                <label for="Email">E-mail</label>
+                <input asp-for="Email" type="email" id="Email" class="form-control" required />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>                   
 
-            <!-- Campo para confirmação da nova senha -->
-            <div class="form-group mb-3">
-                <label for="ConfirmarSenha">Confirme a Nova Senha</label>
-                <input asp-for="ConfirmarSenha" type="password" id="ConfirmarSenha" class="form-control" required />
-                <span asp-validation-for="ConfirmarSenha" class="text-danger"></span>
-            </div>
+           
 
-            <!-- Campo oculto para o token -->
-            <input asp-for="Token" type="hidden" />
-
-
-
-            <div style="display: flex; justify-content: center; margin-top: 6rem; margin-bottom: 6rem;">
-                <button type="submit" class="btn"
-                    style="width: 260px; background-color: #24826F; color: white;">Redefinir Senha</button>
-            </div>
-
+            <button type="submit" class="btn btn-primary w-100">Recuperar Senha</button>
         </form>
 
         <div class="text-center mt-3">
-            <a href="@Url.Action("Login", "Auth")"><p style="color: #fff;">Voltar para a página de Login</p></a>
+            <a href="@Url.Action("Login", "Auth")">Voltar para a página de Login</a>
         </div>
     </div>
 </div>

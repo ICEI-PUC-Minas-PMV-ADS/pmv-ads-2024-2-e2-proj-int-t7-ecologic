@@ -52,34 +52,6 @@ namespace app.Migrations
                     b.ToTable("UsuariosGruposPermissoes", (string)null);
                 });
 
-            modelBuilder.Entity("TokenRecuperacaoSenha", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("DataExpiracao")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Token")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid>("UsuarioId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<int>("UsuarioId1")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UsuarioId1");
-
-                    b.ToTable("TokensRecuperacaoSenha");
-                });
-
             modelBuilder.Entity("app.Models.Entities.Cidade", b =>
                 {
                     b.Property<Guid>("Id")
@@ -109,37 +81,37 @@ namespace app.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("c04a635d-dbd4-49ae-98f3-1e5b4aff2418"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(440),
-                            EstadoId = new Guid("c9aa1db8-c29e-400c-a775-34e173f636cd"),
+                            Id = new Guid("45432663-7878-4c61-98e9-7bbf69fef4a5"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5520),
+                            EstadoId = new Guid("c25c7d74-0f11-48e6-93b2-6900ced2e3a7"),
                             Name = "Campinas"
                         },
                         new
                         {
-                            Id = new Guid("2747e60e-7d49-4928-9900-c0f18359e104"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(444),
-                            EstadoId = new Guid("6c1e2141-6780-43f5-b6e5-4b37da741854"),
+                            Id = new Guid("d23704a4-23d7-4629-80a2-13a888cc70dc"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5520),
+                            EstadoId = new Guid("dee95539-01d3-444f-a8bc-d912acf77701"),
                             Name = "Niterói"
                         },
                         new
                         {
-                            Id = new Guid("acc23d64-be08-47e3-8dda-0390ecae9b82"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(445),
-                            EstadoId = new Guid("753f4629-103b-4ae6-9dbb-18fcc5b5dabc"),
+                            Id = new Guid("9f68ee08-82b4-4b93-b879-99c7f52feac7"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5520),
+                            EstadoId = new Guid("2bb267b2-467a-428b-96c1-850b320b1dec"),
                             Name = "Uberlândia"
                         },
                         new
                         {
-                            Id = new Guid("ff5fa089-e460-4b1e-9a33-e35597d8094a"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(447),
-                            EstadoId = new Guid("160508a5-3ccf-42db-92ef-c9e670ba1dd0"),
+                            Id = new Guid("44aacd98-8fb5-4416-a32f-aec0535e32c7"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5520),
+                            EstadoId = new Guid("3b1b353e-22f6-4b2c-acef-c2b49b2e5e4d"),
                             Name = "Salvador"
                         },
                         new
                         {
-                            Id = new Guid("b45eb88a-7229-47ce-8495-f55c0385200b"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(448),
-                            EstadoId = new Guid("cee3eb34-a202-4f4a-9091-6e998b6667d6"),
+                            Id = new Guid("7f3da876-cc3b-48ab-9338-83c2324c57d5"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5530),
+                            EstadoId = new Guid("b89a67d6-9b23-40ef-a53e-4298beaa4172"),
                             Name = "Curitiba"
                         });
                 });
@@ -176,37 +148,37 @@ namespace app.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("5deb620c-a234-4081-8cec-134bfb883a70"),
+                            Id = new Guid("f5ef2702-b680-45e3-9474-7ff0150287c1"),
                             CpfCnpj = "12345678901",
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(488),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5570),
                             Nome = "João Silva"
                         },
                         new
                         {
-                            Id = new Guid("5f2bc1db-b967-4a34-ba21-04e92b375877"),
+                            Id = new Guid("5e5b05de-4f2f-4c92-acaf-3bd044194c09"),
                             CpfCnpj = "23456789012",
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(492),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5570),
                             Nome = "Maria Oliveira"
                         },
                         new
                         {
-                            Id = new Guid("d9dff179-b1ff-40bf-8e57-45ab6bbf5080"),
+                            Id = new Guid("a915718e-05bf-4c16-93b2-290c470b26cb"),
                             CpfCnpj = "34567890123",
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(493),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5580),
                             Nome = "Carlos Souza"
                         },
                         new
                         {
-                            Id = new Guid("31cb83e6-f32c-41ad-8e88-c22803237a14"),
+                            Id = new Guid("2f31225a-874c-4386-9d9c-2b4f0dc792e4"),
                             CpfCnpj = "45678901234",
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(495),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5580),
                             Nome = "Ana Santos"
                         },
                         new
                         {
-                            Id = new Guid("72fd29bd-e52d-49b0-aa43-ff911c2d4156"),
+                            Id = new Guid("004a84c4-a3c5-497b-8050-bb8d797e78b3"),
                             CpfCnpj = "56789012345",
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(496),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5580),
                             Nome = "Pedro Costa"
                         });
                 });
@@ -240,36 +212,36 @@ namespace app.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("c9aa1db8-c29e-400c-a775-34e173f636cd"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(285),
+                            Id = new Guid("c25c7d74-0f11-48e6-93b2-6900ced2e3a7"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5430),
                             Name = "São Paulo",
                             Sigla = "SP"
                         },
                         new
                         {
-                            Id = new Guid("6c1e2141-6780-43f5-b6e5-4b37da741854"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(290),
+                            Id = new Guid("dee95539-01d3-444f-a8bc-d912acf77701"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5440),
                             Name = "Rio de Janeiro",
                             Sigla = "RJ"
                         },
                         new
                         {
-                            Id = new Guid("753f4629-103b-4ae6-9dbb-18fcc5b5dabc"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(292),
+                            Id = new Guid("2bb267b2-467a-428b-96c1-850b320b1dec"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5440),
                             Name = "Minas Gerais",
                             Sigla = "MG"
                         },
                         new
                         {
-                            Id = new Guid("160508a5-3ccf-42db-92ef-c9e670ba1dd0"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(293),
+                            Id = new Guid("3b1b353e-22f6-4b2c-acef-c2b49b2e5e4d"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5450),
                             Name = "Bahia",
                             Sigla = "BA"
                         },
                         new
                         {
-                            Id = new Guid("cee3eb34-a202-4f4a-9091-6e998b6667d6"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(295),
+                            Id = new Guid("b89a67d6-9b23-40ef-a53e-4298beaa4172"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5450),
                             Name = "Paraná",
                             Sigla = "PR"
                         });
@@ -302,20 +274,20 @@ namespace app.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("2a5f4e1a-ea3c-4c46-b0a7-38ca857e4ca5"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(533),
+                            Id = new Guid("5a6da5e6-92c6-4b76-b4de-796e7adb89c9"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5610),
                             Tipo = "Solar"
                         },
                         new
                         {
-                            Id = new Guid("c60dcc51-3c2b-4db8-88a0-f2d088c4c56c"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(536),
+                            Id = new Guid("b7e858f0-cb5c-47d5-903a-18de5d8d7533"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5620),
                             Tipo = "Eólica"
                         },
                         new
                         {
-                            Id = new Guid("27ab4595-594f-44c0-a7be-d0d3aef5d64a"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(537),
+                            Id = new Guid("9a7569a7-2d89-4676-bf98-e0a60731170e"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5620),
                             Tipo = "Biomassa"
                         });
                 });
@@ -366,56 +338,56 @@ namespace app.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("34b1c2e9-976d-4bec-bbc9-1fbaaa4054f6"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(564),
+                            Id = new Guid("2c554482-ba28-40a7-995c-fb386724465c"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5680),
                             Nome = "Usinas"
                         },
                         new
                         {
-                            Id = new Guid("0abe8067-f9c7-483b-bca3-8289fc794f6e"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(566),
+                            Id = new Guid("01af61a1-1d90-4f2c-aac7-411d7afafa11"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5680),
                             Nome = "Clientes"
                         },
                         new
                         {
-                            Id = new Guid("ba63cfa7-d3f4-4b3d-aab6-178f0b4e9722"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(567),
+                            Id = new Guid("e3542ece-5682-43b7-a482-976c93ee4aab"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5680),
                             Nome = "Cidades"
                         },
                         new
                         {
-                            Id = new Guid("1ca65f82-1d80-4f33-a89a-160a14e016fb"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(568),
+                            Id = new Guid("7bd6c62d-0ebd-4ae4-b5af-25ddd17099e3"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5690),
                             Nome = "Estados"
                         },
                         new
                         {
-                            Id = new Guid("b4f872ec-0275-4b64-b2f6-f60a95f4ba75"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(570),
+                            Id = new Guid("e50676d8-e31f-44b3-8617-2a109b98344a"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5690),
                             Nome = "FontesDeEnergia"
                         },
                         new
                         {
-                            Id = new Guid("4451eb3f-651f-4e41-9cee-fe0f185c862f"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(572),
+                            Id = new Guid("6f725aaf-cb57-4714-842c-aad9c1fad2af"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5690),
                             Nome = "ProducaoDeEnergia"
                         },
                         new
                         {
-                            Id = new Guid("fff549f9-7ca5-43d5-8676-44d0d64aad7c"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(573),
+                            Id = new Guid("6a78caf9-d0f4-49b2-9c23-ac99ef9b43d2"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5700),
                             Nome = "Usuarios"
                         },
                         new
                         {
-                            Id = new Guid("75dee31e-eba8-4e06-b81e-30196fd47d85"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(575),
+                            Id = new Guid("42292c6a-fdc0-4ace-a5f7-879c47c7907f"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5700),
                             Nome = "GruposPermissoes"
                         },
                         new
                         {
-                            Id = new Guid("19456c4d-915a-4c12-9deb-77f15d1aeca2"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(576),
+                            Id = new Guid("d218c393-7e42-4e30-9587-8b9ab465ec3a"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5700),
                             Nome = "Permissoes"
                         });
                 });
@@ -506,66 +478,66 @@ namespace app.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("e3bbf2b7-7537-4974-b376-7cc37f1e465d"),
+                            Id = new Guid("ad9c8864-8068-4cae-977f-aa5a1ff6aab5"),
                             CapacidadeKW = 1000.0m,
-                            CidadeId = new Guid("c04a635d-dbd4-49ae-98f3-1e5b4aff2418"),
-                            ClienteId = new Guid("5deb620c-a234-4081-8cec-134bfb883a70"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(712),
+                            CidadeId = new Guid("45432663-7878-4c61-98e9-7bbf69fef4a5"),
+                            ClienteId = new Guid("f5ef2702-b680-45e3-9474-7ff0150287c1"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5830),
                             DataInicio = new DateTime(2022, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Endereco = "Rua A, 123",
-                            FonteDeEnergiaId = new Guid("2a5f4e1a-ea3c-4c46-b0a7-38ca857e4ca5"),
+                            FonteDeEnergiaId = new Guid("5a6da5e6-92c6-4b76-b4de-796e7adb89c9"),
                             Nome = "Usina Solar SP",
                             StatusOperacional = "Operando"
                         },
                         new
                         {
-                            Id = new Guid("4ea8167f-8858-4fb3-b3df-2ee30b62b619"),
+                            Id = new Guid("191d64b4-b1e5-4620-85bc-21664572cbd6"),
                             CapacidadeKW = 1500.0m,
-                            CidadeId = new Guid("2747e60e-7d49-4928-9900-c0f18359e104"),
-                            ClienteId = new Guid("5f2bc1db-b967-4a34-ba21-04e92b375877"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(721),
+                            CidadeId = new Guid("d23704a4-23d7-4629-80a2-13a888cc70dc"),
+                            ClienteId = new Guid("5e5b05de-4f2f-4c92-acaf-3bd044194c09"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5840),
                             DataInicio = new DateTime(2022, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Endereco = "Rua B, 456",
-                            FonteDeEnergiaId = new Guid("c60dcc51-3c2b-4db8-88a0-f2d088c4c56c"),
+                            FonteDeEnergiaId = new Guid("b7e858f0-cb5c-47d5-903a-18de5d8d7533"),
                             Nome = "Usina Eólica RJ",
                             StatusOperacional = "Operando"
                         },
                         new
                         {
-                            Id = new Guid("6c12ac42-e86b-48a5-b194-215ff3f55d82"),
+                            Id = new Guid("250422c9-b82a-4f4c-9192-fc2200d6c982"),
                             CapacidadeKW = 800.0m,
-                            CidadeId = new Guid("acc23d64-be08-47e3-8dda-0390ecae9b82"),
-                            ClienteId = new Guid("d9dff179-b1ff-40bf-8e57-45ab6bbf5080"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(725),
+                            CidadeId = new Guid("9f68ee08-82b4-4b93-b879-99c7f52feac7"),
+                            ClienteId = new Guid("a915718e-05bf-4c16-93b2-290c470b26cb"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5850),
                             DataInicio = new DateTime(2022, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Endereco = "Rua C, 789",
-                            FonteDeEnergiaId = new Guid("27ab4595-594f-44c0-a7be-d0d3aef5d64a"),
+                            FonteDeEnergiaId = new Guid("9a7569a7-2d89-4676-bf98-e0a60731170e"),
                             Nome = "Usina Biomassa MG",
                             StatusOperacional = "Operando"
                         },
                         new
                         {
-                            Id = new Guid("4b1f5708-1d85-4e3d-a0dd-298a5fd82e56"),
+                            Id = new Guid("a047bb01-c13b-457d-8c75-e156b67e73a6"),
                             CapacidadeKW = 1200.0m,
-                            CidadeId = new Guid("ff5fa089-e460-4b1e-9a33-e35597d8094a"),
-                            ClienteId = new Guid("31cb83e6-f32c-41ad-8e88-c22803237a14"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(729),
+                            CidadeId = new Guid("44aacd98-8fb5-4416-a32f-aec0535e32c7"),
+                            ClienteId = new Guid("2f31225a-874c-4386-9d9c-2b4f0dc792e4"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5850),
                             DataInicio = new DateTime(2022, 4, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Endereco = "Rua D, 321",
-                            FonteDeEnergiaId = new Guid("2a5f4e1a-ea3c-4c46-b0a7-38ca857e4ca5"),
+                            FonteDeEnergiaId = new Guid("5a6da5e6-92c6-4b76-b4de-796e7adb89c9"),
                             Nome = "Usina Solar BA",
                             StatusOperacional = "Em Manutenção"
                         },
                         new
                         {
-                            Id = new Guid("4ef9a52e-e74c-48e4-abde-124262346ba8"),
+                            Id = new Guid("0e0fd4ac-ee1d-4e67-bed5-4c12af18a5c5"),
                             CapacidadeKW = 2000.0m,
-                            CidadeId = new Guid("b45eb88a-7229-47ce-8495-f55c0385200b"),
-                            ClienteId = new Guid("72fd29bd-e52d-49b0-aa43-ff911c2d4156"),
-                            CreatedAt = new DateTime(2024, 11, 24, 11, 41, 57, 406, DateTimeKind.Local).AddTicks(733),
+                            CidadeId = new Guid("7f3da876-cc3b-48ab-9338-83c2324c57d5"),
+                            ClienteId = new Guid("004a84c4-a3c5-497b-8050-bb8d797e78b3"),
+                            CreatedAt = new DateTime(2024, 12, 10, 21, 29, 8, 638, DateTimeKind.Local).AddTicks(5860),
                             DataInicio = new DateTime(2022, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Endereco = "Rua E, 654",
-                            FonteDeEnergiaId = new Guid("c60dcc51-3c2b-4db8-88a0-f2d088c4c56c"),
+                            FonteDeEnergiaId = new Guid("b7e858f0-cb5c-47d5-903a-18de5d8d7533"),
                             Nome = "Usina Eólica PR",
                             StatusOperacional = "Operando"
                         });
@@ -598,6 +570,9 @@ namespace app.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<string>("Token")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
@@ -609,31 +584,6 @@ namespace app.Migrations
                         .IsUnique();
 
                     b.ToTable("Usuarios");
-                });
-
-            modelBuilder.Entity("app.Models.Usuario", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Nome")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Usuario");
                 });
 
             modelBuilder.Entity("GrupoPermissaoPermissao", b =>
@@ -664,17 +614,6 @@ namespace app.Migrations
                         .HasForeignKey("UsuariosId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("TokenRecuperacaoSenha", b =>
-                {
-                    b.HasOne("app.Models.Usuario", "Usuario")
-                        .WithMany()
-                        .HasForeignKey("UsuarioId1")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Usuario");
                 });
 
             modelBuilder.Entity("app.Models.Entities.Cidade", b =>
