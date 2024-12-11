@@ -5,33 +5,42 @@
     ViewData["Title"] = "Grupos de Permissões";
 }
 
-<p>
-    <a asp-action="Create" class="btn btn-primary">Novo Grupo</a>
-</p>
+@if (!Model.Any())
+{
+    <p>Nenhum grupo de permissão encontrado.</p>
+}
+else
+{
+    <h1>Grupos de Permissões</h1>
 
-<table class="table">
+    <a asp-action="Add" class="btn btn-primary mb-3">Adicionar</a>
+
+    <table class="table table-striped">
+
     <thead>
         <tr>
             <th>Nome</th>
             <th>Permissões</th>
-            <th>Criado em</th>
-            <th>Atualizado em</th>
             <th>Ações</th>
         </tr>
     </thead>
+
     <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@item.Nome</td>
-                <td>@string.Join(", ", item.PermissoesNomes)</td>
-                <td>@item.CreatedAt.ToString("dd/MM/yyyy HH:mm")</td>
-                <td>@(item.UpdatedAt?.ToString("dd/MM/yyyy HH:mm") ?? "-")</td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Editar</a>
-                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Excluir</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+        @foreach (var grupo in Model)
+            {
+                <tr>
+
+                   
+                    <td>@grupo.Nome</td>
+                    <td>@string.Join(", ", grupo.PermissoesNomes)</td>
+                    <td>
+
+                        <a asp-action="Edit" asp-route-id="@grupo.Id" class="btn btn-primary btn-sm">Editar</a>
+                        <a asp-action="Delete" asp-route-id="@grupo.Id" class="btn btn-danger btn-sm"
+                            >Excluir</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

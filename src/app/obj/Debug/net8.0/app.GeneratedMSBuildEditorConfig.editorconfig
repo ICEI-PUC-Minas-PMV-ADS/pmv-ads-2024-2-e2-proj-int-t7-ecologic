@@ -50,6 +50,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/raphaelrodrigues/Documents/new/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Clientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/raphaelrodrigues/Documents/new/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/raphaelrodrigues/Documents/new/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/raphaelrodrigues/Documents/new/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Clientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -90,8 +102,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9udGVzRGVFbmVyZ2lhL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/raphaelrodrigues/Documents/new/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/GruposPermissoes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3J1cG9zUGVybWlzc29lcy9DcmVhdGUuY3NodG1s
+[/Users/raphaelrodrigues/Documents/new/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/GruposPermissoes/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3J1cG9zUGVybWlzc29lcy9BZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/raphaelrodrigues/Documents/new/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/GruposPermissoes/Delete.cshtml]
@@ -110,8 +122,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/raphaelrodrigues/Documents/new/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Permissoes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVybWlzc29lcy9DcmVhdGUuY3NodG1s
+[/Users/raphaelrodrigues/Documents/new/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Permissoes/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVybWlzc29lcy9BZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/raphaelrodrigues/Documents/new/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Permissoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVybWlzc29lcy9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/raphaelrodrigues/Documents/new/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Permissoes/Edit.cshtml]
@@ -122,8 +138,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVybWlzc29lcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/raphaelrodrigues/Documents/new/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/ProducaoDeEnergia/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjYW9EZUVuZXJnaWEvQ3JlYXRlLmNzaHRtbA==
+[/Users/raphaelrodrigues/Documents/new/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/ProducaoDeEnergia/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjYW9EZUVuZXJnaWEvQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/raphaelrodrigues/Documents/new/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/ProducaoDeEnergia/Delete.cshtml]
@@ -174,8 +190,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNpbmFzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/raphaelrodrigues/Documents/new/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Usuarios/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvQ3JlYXRlLmNzaHRtbA==
+[/Users/raphaelrodrigues/Documents/new/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Usuarios/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/raphaelrodrigues/Documents/new/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/Views/Usuarios/Delete.cshtml]

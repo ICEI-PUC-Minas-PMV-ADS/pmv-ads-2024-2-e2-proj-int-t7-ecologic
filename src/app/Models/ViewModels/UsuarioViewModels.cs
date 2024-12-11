@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using app.Models.Entities;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace app.Models.ViewModels
@@ -19,13 +20,19 @@ namespace app.Models.ViewModels
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
+       
+        
+
         [Required]
         public Guid ClienteId { get; set; }
         public IEnumerable<SelectListItem>? Clientes { get; set; }
+ 
+
 
         [Required]
         public List<Guid> GrupoPermissaoIds { get; set; } = new List<Guid>();
         public IEnumerable<SelectListItem>? GruposPermissoes { get; set; }
+
     }
 
     public class UsuarioUpdateViewModel
@@ -48,6 +55,8 @@ namespace app.Models.ViewModels
         [Required]
         public List<Guid> GrupoPermissaoIds { get; set; } = new List<Guid>();
         public IEnumerable<SelectListItem>? GruposPermissoes { get; set; }
+
+
     }
 
     public class UsuarioListViewModel

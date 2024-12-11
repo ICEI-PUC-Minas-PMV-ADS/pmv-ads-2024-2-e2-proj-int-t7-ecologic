@@ -26,7 +26,7 @@ namespace app.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Add()
+        public async Task<IActionResult> Create()
         {
             var estados = await _dbContext.Estados.ToListAsync();
             var viewModel = new AddCidadeViewModel
@@ -37,7 +37,7 @@ namespace app.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add(AddCidadeViewModel viewModel)
+        public async Task<IActionResult> Create(AddCidadeViewModel viewModel)
         {
             _logger.LogInformation("Adicionando cidade: {Name}", viewModel.Name);
             _logger.LogInformation("Estado ID: {EstadoId}", viewModel.EstadoId);

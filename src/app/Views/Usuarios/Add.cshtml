@@ -1,13 +1,13 @@
 @model app.Models.ViewModels.UsuarioCreateViewModel
 
 @{
-    ViewData["Title"] = "Novo Usuário";
+    ViewData["Title"] = "Adicionar Usuário";
     Layout = "_ContentLayout";
 }
 
-<h1>Novo Usuário</h1>
+<h1>Adicionar Usuário</h1>
 
-<form asp-action="Create">
+<form asp-action="Create" style="max-width: 600px;" novalidate>
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
@@ -49,9 +49,9 @@
         </div>
     </div>
 
-    <div class="form-group mt-3">
-        <input type="submit" value="Criar" class="btn btn-primary" />
-        <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+    <div class="form-group mt-3 d-flex gap-2">
+        <button type="submit" class="btn btn-primary w-100">Salvar</button>
+        <a asp-action="Index" class="btn btn-secondary w-100">Voltar</a>
     </div>
 </form>
 

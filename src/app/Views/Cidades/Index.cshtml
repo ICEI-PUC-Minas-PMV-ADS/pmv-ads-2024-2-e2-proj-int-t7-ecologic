@@ -32,7 +32,7 @@ else
                     <td>@cidade.CreatedAt.ToString("dd/MM/yyyy")</td>
                     <td>
                         <a asp-action="Edit" asp-route-id="@cidade.Id" class="btn btn-primary btn-sm">Editar</a>
-                        <a asp-action="Delete" asp-route-id="@cidade.Id" class="btn btn-danger btn-sm" onclick="return confirm('Tem certeza que deseja excluir?');">Excluir</a>
+                        <a asp-action="Delete" asp-route-id="@cidade.Id" class="btn btn-danger btn-sm" >Excluir</a>
                     </td>
                 </tr>
             }

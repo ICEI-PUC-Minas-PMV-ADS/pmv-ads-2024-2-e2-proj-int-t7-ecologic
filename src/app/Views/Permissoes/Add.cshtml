@@ -1,29 +1,21 @@
-@model app.Models.ViewModels.PermissaoUpdateViewModel
+@model app.Models.ViewModels.PermissaoCreateViewModel
 
 @{
     Layout = "_ContentLayout";
-    ViewData["Title"] = "Editar Permissão";
+    ViewData["Title"] = "Adicionar Permissão";
 }
 
-<h1 class="mb-4">Editar Permissão</h1>
+<h1 class="mb-4">Adicionar Permissão</h1>
 
-<form asp-action="Edit" style="max-width: 400px;" novalidate>
-    <input type="hidden" asp-for="Id" />
-    
+<form asp-action="Create" style="max-width: 400px;" novalidate>
     <div class="mb-3">
         <label asp-for="Nome" class="form-label">Nome</label>
         <input asp-for="Nome" class="form-control" required />
         <span asp-validation-for="Nome" class="text-danger"></span>
     </div>
 
-    <div class="mb-3 d-flex gap-2">
+    <div class="d-flex gap-2">
         <button type="submit" class="btn btn-primary w-100">Salvar</button>
         <a asp-action="Index" class="btn btn-secondary w-100">Voltar</a>
     </div>
 </form>
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}

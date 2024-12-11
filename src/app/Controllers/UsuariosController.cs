@@ -33,7 +33,7 @@ namespace Controllers
             return View(usuarios);
         }
 
-        public async Task<IActionResult> Create()
+        public async Task<IActionResult> Add()
         {
             var viewModel = new UsuarioCreateViewModel
             {

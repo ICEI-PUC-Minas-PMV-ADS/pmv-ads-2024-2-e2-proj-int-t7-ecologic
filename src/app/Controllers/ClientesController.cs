@@ -27,7 +27,7 @@ namespace app.Controllers
         {
             var clientes = await _dbContext.Clientes.ToListAsync();
 
-            return View(new IndexClientesViewModel { Clientes = clientes });
+            return View(clientes);
         }
 
         [HttpGet]
@@ -55,7 +55,68 @@ namespace app.Controllers
         {
             return View("Error!");
         }
+
+
+        [HttpGet]
+        public async Task<IActionResult> Edit([FromRoute] Guid id)
+        {
+            var cliente = await _dbContext.Clientes.FindAsync(id);
+
+
+            return View(new EditClienteViewModel { Id = cliente.Id, Nome = cliente.Nome, CpfCnpj = cliente.CpfCnpj });
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(EditClienteViewModel model)
+        {
+            var cliente = await _dbContext.Clientes.FindAsync(model.Id);
+
+            cliente.Nome = model.Nome;
+            cliente.CpfCnpj = model.CpfCnpj;
+
+            await _dbContext.SaveChangesAsync();
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Details([FromRoute] Guid id)
+        {
+            var cliente = await _dbContext.Clientes.FindAsync(id);
+
+
+            return View(cliente);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Delete([FromRoute] Guid id)
+        {
+            var cliente = await _dbContext.Clientes.FindAsync(id);
+
+            if (cliente == null)
+            {
+                return NotFound();
+            }
+
+            return View(cliente);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(Guid id)
+        {
+            var cliente = await _dbContext.Clientes.FindAsync(id);
+            if (cliente != null)
+            {
+                _dbContext.Clientes.Remove(cliente);
+                await _dbContext.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
+
     }
 
-    
+
 }

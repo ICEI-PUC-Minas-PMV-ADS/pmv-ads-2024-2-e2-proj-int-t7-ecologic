@@ -1,14 +1,14 @@
-@model app.Models.Entities.GrupoPermissao
+@model app.Models.Entities.Cliente
 
 @{
     Layout = "_ContentLayout";
-    ViewData["Title"] = "Excluir Grupo de Permissão";
+    ViewData["Title"] = "Excluir Cliente";
 }
 
-<h1 class="mb-4">Excluir Grupo de Permissão</h1>
+<h1 class="mb-4">Excluir Cliente</h1>
 
 <div style="max-width: 400px;">
-    <h3>Você tem certeza que deseja excluir este grupo de permissão?</h3>
+    <h3>Você tem certeza que deseja excluir este cliente?</h3>
     
     <div class="mb-3">
         <label class="form-label">Nome</label>
@@ -16,13 +16,13 @@
     </div>
 
     <div class="mb-3">
-        <label class="form-label">Permissões</label>
-        <div class="form-control" style="height: auto;">
-            @foreach (var permissao in Model.Permissoes)
-            {
-                <div>@permissao.Nome</div>
-            }
-        </div>
+        <label class="form-label">CPF/CNPJ</label>
+        <input class="form-control" value="@Model.CpfCnpj" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Data de Criação</label>
+        <input class="form-control" value="@Model.CreatedAt" readonly />
     </div>
     
     <form asp-action="Delete" method="post">
@@ -32,4 +32,4 @@
             <a asp-action="Index" class="btn btn-secondary w-100">Voltar</a>
         </div>
     </form>
-</div>
+</div> 

@@ -4,54 +4,59 @@
     Layout = "_ContentLayout";
 }
 
-<h1>Adicionar Usina</h1>
-<form method="post">
-    <div>
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" name="nome" class="form-control" />
+<h1 class="mb-4">Adicionar Usina</h1>
+<form method="post" style="max-width: 400px;" novalidate>
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" id="nome" name="nome" class="form-control" required />
     </div>
 
-    <div>
-        <label for="capacidadeKW">Capacidade (KW)</label>
-        <input type="number" id="capacidadeKW" name="capacidadeKW" class="form-control" />
+    <div class="mb-3">
+        <label for="capacidadeKW" class="form-label">Capacidade (KW)</label>
+        <input type="number" id="capacidadeKW" name="capacidadeKW" class="form-control" required />
     </div>
 
-    <div>
-        <label for="dataInicio">Data de Início</label>
-        <input type="date" id="dataInicio" name="dataInicio" class="form-control" />
+    <div class="mb-3">
+        <label for="dataInicio" class="form-label">Data de Início</label>
+        <input type="date" id="dataInicio" name="dataInicio" class="form-control" required />
     </div>
 
-    <div>
-        <label for="statusOperacional">Status Operacional</label>
-        <input type="text" id="statusOperacional" name="statusOperacional" class="form-control" />
+    <div class="mb-3">
+        <label for="statusOperacional" class="form-label">Status Operacional</label>
+        <input type="text" id="statusOperacional" name="statusOperacional" class="form-control" required />
     </div>
 
-    <div>
-        <label for="endereco">Endereço</label>
-        <input type="text" id="endereco" name="endereco" class="form-control" />
+    <div class="mb-3">
+        <label for="endereco" class="form-label">Endereço</label>
+        <input type="text" id="endereco" name="endereco" class="form-control" required />
     </div>
 
-    <div>
-        <label for="cidadeId">Cidade</label>
-        <select asp-for="CidadeId" asp-items="@(new SelectList(Model.Cidades, "Id", "Name"))">
+    <div class="mb-3">
+        <label for="cidadeId" class="form-label">Cidade</label>
+        <select asp-for="CidadeId" asp-items="@(new SelectList(Model.Cidades, "Id", "Name"))" class="form-select" required>
             <option value="">Selecione uma cidade</option>
         </select>
     </div>
 
-    <div>
-        <label for="clienteId">Cliente</label>
-        <select asp-for="ClienteId" asp-items="@(new SelectList(Model.Clientes, "Id", "Nome"))">
+    <div class="mb-3">
+        <label for="clienteId" class="form-label">Cliente</label>
+        <select asp-for="ClienteId" asp-items="@(new SelectList(Model.Clientes, "Id", "Nome"))" class="form-select" required>
             <option value="">Selecione um cliente</option>
         </select>
-
     </div>
 
-    <div>
-        <label for="fonteDeEnergiaId">Tipo de Energia</label>
-        <select asp-for="FonteDeEnergiaId" asp-items="@(new SelectList(Model.FontesDeEnergia, "Id", "Tipo"))">
+    <div class="mb-3">
+        <label for="fonteDeEnergiaId" class="form-label">Tipo de Energia</label>
+        <select asp-for="FonteDeEnergiaId" asp-items="@(new SelectList(Model.FontesDeEnergia, "Id", "Tipo"))" class="form-select" required>
             <option value="">Selecione um tipo de energia</option>
         </select>
     </div>
 
-    <button type="submit" class="btn btn-primary">Salvar</button>
+    <div class="d-flex gap-2 mb-3">
+        <button type="submit" class="btn btn-primary w-100">Salvar</button>
+
+        <a asp-action="Index" class="btn btn-secondary w-100">Voltar</a>
+    </div>
+
+    
 </form>

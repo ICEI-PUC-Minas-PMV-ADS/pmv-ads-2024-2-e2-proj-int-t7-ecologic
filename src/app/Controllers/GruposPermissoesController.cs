@@ -25,13 +25,15 @@ namespace app.Controllers
                     Id = g.Id,
                     Nome = g.Nome,
                     PermissoesNomes = g.Permissoes.Select(p => p.Nome).ToList(),
+                    CreatedAt = g.CreatedAt,
+                    UpdatedAt = g.UpdatedAt
                 })
                 .ToListAsync();
 
             return View(grupos);
         }
 
-        public async Task<IActionResult> Create()
+        public async Task<IActionResult> Add()
         {
             var viewModel = new GrupoPermissaoCreateViewModel
             {

@@ -18,16 +18,15 @@ namespace app.Controllers
             _context = context;
         }
 
-        // GET: ProducaoDeEnergia
         public async Task<IActionResult> Index()
         {
             var producoes = await _context.ProducoesDeEnergia
                 .Include(p => p.Usina)
                 .ToListAsync();
+
             return View(producoes);
         }
 
-        // GET: ProducaoDeEnergia/Details/5
         public async Task<IActionResult> Details(Guid? id)
         {
             if (id == null)
@@ -46,14 +45,12 @@ namespace app.Controllers
             return View(producaoDeEnergia);
         }
 
-        // GET: ProducaoDeEnergia/Create
-        public IActionResult Create()
+        public IActionResult Add()
         {
             ViewData["Usinas"] = _context.Usinas.ToList();
             return View();
         }
 
-        // POST: ProducaoDeEnergia/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ProducaoDeEnergiaViewModel viewModel)
@@ -78,7 +75,6 @@ namespace app.Controllers
             return View(viewModel);
         }
 
-        // GET: ProducaoDeEnergia/Edit/5
         public async Task<IActionResult> Edit(Guid? id)
         {
             if (id == null)
@@ -107,7 +103,6 @@ namespace app.Controllers
             return View(viewModel);
         }
 
-        // POST: ProducaoDeEnergia/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Guid id, ProducaoDeEnergiaViewModel viewModel)
@@ -148,7 +143,6 @@ namespace app.Controllers
             return View(viewModel);
         }
 
-        // GET: ProducaoDeEnergia/Delete/5
         public async Task<IActionResult> Delete(Guid? id)
         {
             if (id == null)
@@ -167,7 +161,6 @@ namespace app.Controllers
             return View(producaoDeEnergia);
         }
 
-        // POST: ProducaoDeEnergia/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)

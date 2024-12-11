@@ -30,7 +30,7 @@ namespace app.Controllers
             return View(permissoes);
         }
 
-        public IActionResult Create()
+        public IActionResult Add()
         {
             return View();
         }

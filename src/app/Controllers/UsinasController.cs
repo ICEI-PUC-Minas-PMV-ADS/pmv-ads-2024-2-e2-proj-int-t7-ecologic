@@ -74,7 +74,10 @@ namespace app.Controllers
         
         public async Task<IActionResult> Index()
         {
-            var usinas = await _dbContext.Usinas.Include(u => u.FonteDeEnergia).ToListAsync();
+            var usinas = await _dbContext.Usinas
+                .Include(u => u.FonteDeEnergia)
+                .Include(u => u.Cliente)
+                .ToListAsync();
 
             return View(usinas);
         }
