@@ -572,3 +572,4 @@
 /Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/obj/Debug/net8.0/app.pdb
 /Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/obj/Debug/net8.0/app.genruntimeconfig.cache
 /Users/arianemoura/Desktop/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/obj/Debug/net8.0/ref/app.dll
+/Users/raphaelrodrigues/Documents/PUC/pmv-ads-2024-2-e2-proj-int-t7-ecologic/src/app/bin/Debug/net8.0/BCrypt.Net-Next.dll
